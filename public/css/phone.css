@@ -1,0 +1,348 @@
+/* Media query for responsive design */
+@media screen and (max-width: 1180px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        padding-top: 2rem;
+        gap: 3rem;
+        height: 100vh;
+        display: flex;
+    }
+
+    .burger {
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #welcome {
+        font-size: 90px;
+    }
+
+    .logo-headings img {
+        width: 19rem;
+        height: 19rem;
+    }
+
+    #C-name {
+        font-size: 4rem;
+    }
+
+
+    .course-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c-list-box {
+        height: 110vh;
+        width: 68%;
+        margin-top: 1rem;
+    }
+
+    .c-list-box>img {
+        height: 46vh;
+    }
+
+    .free-course {
+        font-size: 2.05rem;
+    }
+
+    .course-title {
+        font-size: 2.5rem;
+    }
+
+    .course-detail {
+        font-size: 21px;
+    }
+
+    .btn {
+        font-size: 20px;
+        width: 14rem;
+    }
+
+    .t-p-box {
+        flex-direction: column;
+    }
+
+    .trd-p-para {
+        font-size: 1.7rem;
+        width: 60%;
+    }
+
+    .youtube {
+        margin-top: 15rem;
+        height: 80vh;
+    }
+
+    .youtube>h1 {
+        font-size: 3rem;
+    }
+
+    .youtube-logo {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .youtube-logo>img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .yotube-info>p {
+        text-align: center;
+        line-height: 35px;
+        color: #fff;
+        font-size: 32px;
+    }
+
+    .yt-tag {
+        margin-top: 20px;
+        font-size: 36px;
+    }
+    .footer{
+        margin-top: 20rem;
+    }
+    .footer-tag {
+        display: none;
+    }
+
+    .img-logo {
+        margin: 0 auto;
+    }
+
+    .img-logo h1 {
+        display: none;
+    }
+
+    .img-logo img {
+        display: none;
+    }
+
+    .copyright {
+        margin: 10px 10px;
+        padding: 0;
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 958px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .headings {
+        margin-top: 3rem;
+    }
+
+    #welcome {
+        font-size: 59px;
+    }
+
+    #C-name {
+        font-size: 44px;
+    }
+
+    .logo-headings img {
+        margin: 0;
+        padding: 0;
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .course {
+        font-size: 2.5rem;
+    }
+
+    .c-list-box {
+        width: 60%;
+    }
+
+    .free-course {
+        font-size: 23px;
+    }
+
+    .course-title {
+        font-size: 30px;
+    }
+
+    .course-detail {
+        font-size: 23px;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        width: 11rem;
+    }
+
+    .c-list-box {
+        height: 112vh;
+        width: 60%;
+    }
+
+    .t-p-box>img {
+        border-radius: 10px;
+        width: 28rem;
+        height: 20rem;
+    }
+
+    .trd-p-para {
+        font-size: 1.4rem;
+        width: 60%;
+    }
+
+    .youtube {
+        margin-top: 10rem;
+    }
+
+    .yt-tag {
+        margin-top: 20px;
+        font-size: 29px;
+    }
+
+    .footer {
+        margin-top: 23rem;
+    }
+
+    .copyright {
+
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 876px) {
+    .course-detail {
+        font-size: 19px;
+    }
+
+    .btn {
+        width: 10rem;
+        font-size: 1.4rem;
+    }
+
+    .trd-p-para {
+        font-size: 1.3rem;
+    }
+
+    .yotube-info>p {
+        font-size: 25px;
+    }
+
+    .yt-tag {
+        margin-top: 7px;
+        font-size: 23px;
+    }
+
+    .footer {
+        margin-top: 18rem;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 736px) {
+    .c-list-box {
+        height: 112vh;
+        width: 70%;
+    }
+
+    .t-p-box>img {
+        border-radius: 10px;
+        width: 24rem;
+        height: 16rem;
+    }
+    .trd-p-para {
+        font-size: 18px;
+    }
+    .yotube-info>p {
+        font-size: 20px;
+    }
+    .yt-tag {
+        font-size: 21px;
+    }
+    .youtube>h1 {
+        font-size: 37px;
+    }
+}
+
+
+@media screen and (max-width: 526px) {
+    .youtube>h1 {
+        font-size: 37px;
+    }
+    .course {
+        font-size: 28px;
+    }
+    .btn {
+        width: 9rem;
+        font-size: 20px;
+    }
+    .t-p-box>img {
+        border-radius: 10px;
+        width: 20rem;
+        height: 13rem;
+    }
+    .trd-p-para {
+        font-size: 17px;
+    }
+    .youtube>h1 {
+        font-size: 34px;
+    }
+    .youtube-logo>img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .yotube-info>p {
+        font-size: 19px;
+    }
+    .footer {
+        margin-top: 14rem;
+    }
+    .copyright {
+        font-size: 20px;
+    }    
+}
+
+
+@media screen and (max-width: 458px){
+    .c-list-box {
+        height: 119vh;
+    }
+    .btn {
+        width: 8rem;
+        font-size: 17px;
+    }
+    .trd-p-para {
+        line-height: 31px;
+        font-size: 17px;
+    }
+    .yotube-info>p {
+        font-size: 18px;
+    }
+    .yt-tag {
+        font-size: 17px;
+    }
+    .copyright {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 408px){
+
+}

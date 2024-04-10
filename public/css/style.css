@@ -1,0 +1,375 @@
+/* Reset some default styles */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+::-webkit-scrollbar{
+    width: 0.4rem;
+}
+::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #007bff;
+    border-radius: 30px;
+}
+/* Style the navigation bar */
+.navbar {
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3333338e;
+    color: #555454;
+    padding: 2px 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+/* Style the logo */
+.logo img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    background: transparent;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    box-shadow: 0px 0px 36px red;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 10px;
+    border: 1px solid red;
+    transition: all 0.3s;
+}
+
+.nav-links a:hover {
+    color: #fff;
+    background-color: red;
+}
+
+/* Style the burger menu icon for small screens */
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+/* 
+===========================================
+container(front page)
+===========================================
+*/
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url("../image/front\ image.jpg") center center/cover no-repeat;
+    z-index: -999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome {
+    color: #ffffff3a;
+    font-size: 8rem;
+    text-transform: capitalize;
+    -webkit-text-stroke: 2px gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0;
+}
+
+#welcome>span {
+    color: gold;
+    font-style: italic;
+}
+
+#C-name {
+    padding: 0px;
+    margin: 0;
+    color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 2px gold;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+#C-name>span {
+    color: gold;
+}
+
+.logo-headings {
+    /* border:2px solid red; */
+    transition: 0.3s;
+}
+
+.logo-headings img {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+
+}
+
+.logo-headings:hover {
+    transform: scale(1.05);
+}
+
+
+/* 
+==============================================
+second-page
+==============================================
+*/
+.second-page {
+    /* border:1px solid red; */
+    width: 100%;
+    /* max-height: 100vh; */
+    /* box-shadow: 0px 0px 80px #555454; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course {
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    font-size: 3rem;
+}
+
+.course>span {
+    color: #fff;
+}
+
+.course-list {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.c-list-box {
+    width: 25%;
+    border-radius: 8px;
+    min-height: 100vh;
+    background-color: transparent;
+    box-shadow: 0px 0px 20px #8d8a8a;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.c-list-box>img {
+    width: 100%;
+    height: 35vh;
+    /* box-shadow: 0px 0px 20px #c0bcbc; */
+}
+
+.free-course {
+    margin: 4px 10px;
+    color: #007bff;
+    font-size: 1.05rem;
+}
+
+.course-title {
+    margin: 0px 9px;
+    color: gold;
+}
+
+.course-detail {
+    font-size: 15px;
+    padding: 9px;
+    color: #ffffff;
+}
+
+.btn {
+    border: 2px solid #007bff;
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 7px;
+    color: #007bff;
+    margin-left: 2rem;
+    width: 6rem;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #007bff;
+}
+
+/* ==================================================
+third page
+================================================== */
+
+
+.third-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placement-heading {
+    color: #007bff;
+}
+
+.t-p-box {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.t-p-box>img {
+    border-radius: 10px;
+    width: 29rem;
+    height: 24rem;
+}
+
+.trd-p-para {
+    line-height: 2.2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    width: 45%;
+    text-align: center;
+}
+
+/* 
+        ================================
+        youtube
+        ================================
+*/
+.youtube{
+    /* box-shadow: 0px 0px 20px #555454; */
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.youtube>h1{
+    color: gold;
+}
+.youtube-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.youtube-logo>img{
+    width: 11rem;
+    border-radius: 30px;
+    height: 11rem;
+}
+.yotube-info{
+    padding: 7px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.yotube-info>p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.yt-tag{
+    text-decoration: none;
+    color: #007bff;
+    border-radius: 8px;
+    border: 2px solid #007bff;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+.yt-tag:hover{
+    color:#fff;
+    background-color: #007bff;
+}
+/* 
+==================================
+footer
+==================================
+*/
+
+.footer{
+    padding-top:3px;
+    display: flex;
+    border-top: 1px solid #fff;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+}
+.img-logo img{
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.img-logo h1{
+    margin: 0;
+    padding-right: 4px;
+    font-size: 23px;
+    color: gold;
+    border-right: 2px solid #fff;
+}
+.copyright{
+    color: #fff;
+}
+.copyright>span{
+    color:gold;
+}
+.footer-tag{
+    display: flex;
+    gap:2rem;
+    margin-right: 27px;
+}
+.footer-tag >a{
+    color:gold;
+    font-size: 2.2rem;
+    transition: 0.4s;
+}
+.footer-tag >a:hover{
+    color:#007bff;
+}

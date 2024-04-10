@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Coder/Registration</title>
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="css/registration-phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="image/channel logo.jpg" alt="">
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/notes">Notes</a></li>
+            <li><a href="/course">Course</a></li>
+            <li><a href="/register">Registration</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div class="registration-page1">
+        <div class="r-box">
+
+        </div>
+        <div class="r1-box">
+            <h1>Registration Form</h1>
+            <form class="input" method="post" action="/register">
+                <label for="" class="input-info">Username:</label>
+                <input name="name" type="text" class="input-area">
+
+                <label for="" class="input-info">Class:</label>
+                <input name="class" type="text" class="input-area">
+
+                <label for="" class="input-info">Address:</label>
+                <input name="address" type="text" class="input-area">
+
+                <label for="" class="input-info">Email:</label>
+                <input name="email" type="email" class="input-area">
+
+                <label for="" class="input-info">PhoneNumber:</label>
+                <input name="phone" type="text" class="input-area">
+                <input type="submit" class="btn-input">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="js/registration.js"></script>
+</html>

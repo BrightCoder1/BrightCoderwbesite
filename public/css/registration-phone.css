@@ -1,0 +1,51 @@
+/* Media query for responsive design */
+@media screen and (max-width: 1180px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        padding-top: 2rem;
+        gap: 3rem;
+        height: 100vh;
+        display: flex;
+    }
+
+    .burger {
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .r-box{
+        display: none;
+    }
+    .r1-box {
+        width: 59%;
+        height: 70vh;
+        margin: 103px auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .r1-box {
+        margin: 97px auto;
+        width: 69%;
+        height: 71vh;
+    }
+}
+@media screen and (max-width: 478px) {
+    .r1-box {
+        margin: 114px auto;
+        width: 77%;
+        height: 71vh;
+    }
+}
