@@ -45,7 +45,7 @@
     }
 
     .c-list-box {
-        height: 110vh;
+        /* height: 110vh; */
         width: 68%;
         margin-top: 1rem;
     }
@@ -187,7 +187,7 @@
     }
 
     .c-list-box {
-        height: 112vh;
+        /* height: 112vh; */
         width: 60%;
     }
 
@@ -203,16 +203,18 @@
     }
 
     .youtube {
-        margin-top: 10rem;
+        margin-top: 0rem;
     }
-
+    .third-page {
+        height: 77vh;
+    }
     .yt-tag {
         margin-top: 20px;
         font-size: 29px;
     }
 
     .footer {
-        margin-top: 23rem;
+        margin-top: 0rem;
     }
 
     .copyright {
@@ -258,7 +260,7 @@
 
 @media screen and (max-width: 736px) {
     .c-list-box {
-        height: 112vh;
+        /* height: 112vh; */
         width: 70%;
     }
 
@@ -322,7 +324,7 @@
 
 @media screen and (max-width: 458px){
     .c-list-box {
-        height: 119vh;
+        /* height: 119vh; */
     }
     .btn {
         width: 8rem;
@@ -344,5 +346,7 @@
 }
 
 @media screen and (max-width: 408px){
-
+    .r1-box {
+        min-height: 52vh;
+    }
 }
